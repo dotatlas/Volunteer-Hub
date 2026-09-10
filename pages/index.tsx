@@ -14,7 +14,7 @@ import {
 	getMessagesArray,
 	newMessage,
 	newHoursRequest,
-} from "../firebase";
+} from "../goApi";
 import { useEffectOnce } from "usehooks-ts";
 import { InstagramEmbed } from "react-social-media-embed";
 import * as EmailValidator from "email-validator";

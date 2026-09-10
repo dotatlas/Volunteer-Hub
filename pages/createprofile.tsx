@@ -6,8 +6,7 @@ import Script from "next/script";
 import Confetti from "react-confetti";
 import { useRef, useState } from "react";
 
-import { app, db, newAccount } from "../firebase";
-import { collection, addDoc } from "firebase/firestore";
+import { newAccount } from "../goApi";
 
 import { motion, AnimatePresence } from "framer-motion";
 

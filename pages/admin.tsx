@@ -26,9 +26,8 @@ import {
 	getHoursRequestsArray,
 	approveHoursRequest,
 	denyHoursRequest,
-} from "../firebase";
+} from "../goApi";
 import * as EmailValidator from "email-validator";
-import { collection, addDoc, updateDoc } from "firebase/firestore";
 import { useEffectOnce } from "usehooks-ts";
 import Confetti from "react-confetti";
 import { motion, useAnimation } from "framer-motion";
